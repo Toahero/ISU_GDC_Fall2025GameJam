@@ -47,3 +47,5 @@ shape = SubResource("CapsuleShape2D_onrkg")
 scale = Vector2(0.5, 0.5)
 sprite_frames = SubResource("SpriteFrames_b26j0")
 animation = &"Walk"
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
