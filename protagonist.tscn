@@ -48,6 +48,6 @@ animation = &"crouch"
 shape = SubResource("CapsuleShape2D_5fgat")
 
 [node name="CrouchCollision" type="CollisionShape2D" parent="."]
-position = Vector2(2, 14)
+position = Vector2(0, 15)
 shape = SubResource("CapsuleShape2D_0if5s")
 debug_color = Color(0.84312, 0.00106253, 0.91605, 0.42)

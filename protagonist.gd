@@ -6,7 +6,9 @@ extends CharacterBody2D
 @export_range(0.0, 1.0) var friction = 0.1
 @export_range(0.0 , 1.0) var acceleration = 0.25
 
-
+func _ready():
+	get_node("BaseCollision").disabled = false    
+	get_node("CrouchCollision").disabled = true 
 
 func _physics_process(delta):
 	velocity.y += gravity * delta
